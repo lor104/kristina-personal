@@ -1,0 +1,13 @@
+@use './styles/typography' as *;
+
+body {
+    @include mont;
+}
+
+h1, h2 {
+    @include libre;
+}
+
+p {
+    line-height: 1.7;;
+}

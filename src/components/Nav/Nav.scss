@@ -1,0 +1,33 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.nav {
+    text-align: center;
+
+    &__logo {
+        max-width: 300px;
+    } 
+    &__list {
+        @include reset-list;
+        display: flex;
+        justify-content: center;
+        background-color: $primary;
+    }
+    &__list-item {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    &__link {
+        @include reset-link;
+        text-decoration: none;
+        padding: 0 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: 0.2s;
+        border-bottom: 2px solid transparent;
+        
+        &--active, &:hover {
+            border-bottom: 2px solid $black;
+        }
+    }
+}
