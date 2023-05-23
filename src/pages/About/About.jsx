@@ -20,7 +20,7 @@ function About() {
       <div className="about__section">
         <h2>Now Located in Belleville</h2>
         <p>Feeling the call to live surrounded by the beauty and quietude of nature, I recently relocated to the Bay of Quinte Region from Toronto, where I had a successful practice for over 25 years, and am now practicing out of Belleville. I am looking forward to joining the community here, building my practice and enjoying long hikes in this beautiful part of Ontario. </p>
-        <img className='about__img' src={profile} alt="Profile picture of Kristina Beaubien in India" />
+        <img className='about__img' src={profile} alt="Kristina Beaubien in India" />
       </div>
     </div>
   )
