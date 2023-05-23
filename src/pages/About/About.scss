@@ -1,0 +1,13 @@
+.about {
+    text-align: center;
+
+    &__section {
+        margin: 150px 7%;
+        width: auto;
+    }
+
+    &__img {
+        max-width: 400px;
+        border-radius: 50%;
+    }
+}

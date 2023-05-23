@@ -1,13 +1,47 @@
 @use './styles/typography' as *;
+@use './styles/mixins' as *;
+@use './styles/variables' as *;
 
 body {
     @include mont;
 }
 
-h1, h2 {
+h1, h2, h3 {
     @include libre;
+
+    span {
+        display: block;
+        font-size: 0.6em;
+        text-transform: uppercase;
+        @include mont;
+        font-weight: normal;
+        margin-bottom: 1em;
+    }
 }
 
 p {
     line-height: 1.7;;
+}
+
+.button {
+    @include mont;
+    @include reset-link;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 40px;
+    min-width: 200px;
+    // border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    // color: white;
+    background-color: $primary;
+
+    &.primary {
+        background-color: $primary;
+    }
+
+    &.secondary {
+        background-color: $secondary;
+    }
 }
