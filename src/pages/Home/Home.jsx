@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ferns from '../../assets/images/ferns.jpg'
 import circle from '../../assets/images/circle.jpg'
 import image1 from '../../assets/images/john-price-SVqeVMCk9PE-unsplash.jpg'
-import image2 from '../../assets/images/kimberly-ortega-leon-xNxQTNk5HqE-unsplash.jpg'
 import './Home.scss';
 
 function Home() {

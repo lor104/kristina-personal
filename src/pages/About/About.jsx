@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import profile from '../../assets/images/kristina.jpg'
 import profile_removebg from '../../assets/images/kristina-removebg-preview.png';
 import './About.scss';
 
