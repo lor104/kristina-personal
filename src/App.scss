@@ -34,7 +34,7 @@ p {
     // border: 1px solid black;
     border-radius: 5px;
     margin: 10px;
-    // color: white;
+    color: white;
     background-color: $primary;
 
     &.primary {
@@ -43,5 +43,27 @@ p {
 
     &.secondary {
         background-color: $secondary;
+    }
+}
+
+.photo-divider {
+    $height: 400px;
+    height: $height;
+    overflow: hidden;
+    position: relative;
+
+    .fade {
+        background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 95%);
+        width: 100%;
+        height: $height;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+    img {
+        width: 100%;
+        position: relative;
     }
 }

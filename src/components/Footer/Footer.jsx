@@ -9,8 +9,8 @@ function Footer() {
             <Link className='footer__link'>Belleville Osteopathy</Link>
             <p>
                 Harbourview Business Centre <br />
-                220 Bay Bridge Road, Unit 11 <br />
-                Belleville, ON | postalcode
+                11 Bay Bridge Road, Unit 220 <br />
+                Belleville, ON | K8P 3P6
             </p>
         </div>
         <div className="footer__section ">

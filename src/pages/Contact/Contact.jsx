@@ -23,8 +23,8 @@ function Contact() {
         <h3 className='primary'>Belleville Ostepathy</h3>
         <p>
             Harbourview Business Centre <br />
-            220 Bay Bridge Road, Unit 11 <br />
-            Belleville, ON | postalcode
+            11 Bay Bridge Road, Unit 220 <br />
+            Belleville, ON | K8P 3P6
         </p>
         <Link className="button primary">Get Directions</Link>
       </div>

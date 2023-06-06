@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ferns from '../../assets/images/ferns.jpg'
+import circle from '../../assets/images/circle.jpg'
+import image1 from '../../assets/images/john-price-SVqeVMCk9PE-unsplash.jpg'
+import image2 from '../../assets/images/kimberly-ortega-leon-xNxQTNk5HqE-unsplash.jpg'
 import './Home.scss';
 
 function Home() {
@@ -20,6 +24,10 @@ function Home() {
                 <p>Osteopathy is a holistic whole-body approach that is adapted to each person at each visit. It is <span className='emphasis secondary'>a gentle and deeply effective form of manual therapy</span> that utilizes fascial release, oscillations, rhythmic joint movements, muscle energy, visceral work and other gentle techniques that address all aspects of hte body.</p>
                 <p>The goal of osteopathy is to <span className='emphasis secondary'>alleviate restrictions within the body</span> including the health and function of joints, muscles, nerves, lymphatics, blood vessels and visceral organs. This assists the body to be in its optimum condition so that it can self-heal.</p>
             </div>
+            <div className="photo-divider">
+                <img src={image1} alt="forest" />
+                <div className='fade'></div>
+            </div>
             <div className="home__section">
                 <h2>What Types of Issues Can Osteopathy Help?</h2>
                 <p>Osteopathic treatments are beneficial and effective at providing relief from most types of <span className="emphasis primary">pain, illness, injury, trauma and stress</span> including, but not limited to:</p>
@@ -39,6 +47,10 @@ function Home() {
                 </div>
                 <p>Osteopathy is <span className="emphasis primary">safe, efficient and appropriate for patients of all ages</span> from infants to the elderly.</p>
                 <Link className='button primary' to="/contact">Book an Appointment</Link>
+            </div>
+            <div className="photo-divider">
+                <img src={circle} alt="forest" />
+                <div className='fade'></div>
             </div>
             <div className="home__section">
                 <h2>Origin of Osteopathic Medicine</h2>
