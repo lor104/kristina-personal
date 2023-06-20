@@ -19,7 +19,7 @@ function Home() {
             </div>
             <div className="home__section">
                 <h2>What is Osteopathy?</h2>
-                <p>Osteopathy is a holistic whole-body approach that is adapted to each person at each visit. It is <span className='emphasis secondary'>a gentle and deeply effective form of manual therapy</span> that utilizes fascial release, oscillations, rhythmic joint movements, muscle energy, visceral work and other gentle techniques that address all aspects of hte body.</p>
+                <p>Osteopathy is a holistic whole-body approach that is adapted to each person at each visit. It is <span className='emphasis secondary'>a gentle and deeply effective form of manual therapy</span> that utilizes fascial release, oscillations, rhythmic joint movements, muscle energy, visceral work and other gentle techniques that address all aspects of the body.</p>
                 <p>The goal of osteopathy is to <span className='emphasis secondary'>alleviate restrictions within the body</span> including the health and function of joints, muscles, nerves, lymphatics, blood vessels and visceral organs. This assists the body to be in its optimum condition so that it can self-heal.</p>
             </div>
             <div className="photo-divider">
