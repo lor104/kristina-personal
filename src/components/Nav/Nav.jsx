@@ -2,14 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 
-import logo from '../../assets/images/Kristina-Logo.png';
 import './Nav.scss';
 
 function Nav() {
   return (
     <div className='nav'>
         <Logo />
-        {/* <img className='nav__logo' src={logo} alt="Kristina A Beaubien. Manual Osteopathy. Registered Massage Therapy" /> */}
         <ul className='nav__list'>
             <li className='nav__list-item'>
                 <NavLink className={
