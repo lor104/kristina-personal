@@ -5,10 +5,12 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './utils/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="app">
         <Nav />
         <Routes>
