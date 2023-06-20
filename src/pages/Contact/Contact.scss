@@ -7,10 +7,18 @@
     &__section {
         margin: 150px 7%;
         width: auto;
+
+        @include mobile {
+            margin: 100px 10%;
+        }
     }
 
     &__inner-section {
         margin: 4em 0;
+
+        @include mobile {
+            margin: 2em 0;
+        }
         
         h3, h3 span {
             margin-bottom: 0;

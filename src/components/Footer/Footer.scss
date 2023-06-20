@@ -1,4 +1,6 @@
 @use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
 .footer {
     background-color: $black;
     color: white;
@@ -7,16 +9,24 @@
     justify-content: space-around;
     padding: 2rem 1rem;
 
+    @include mobile-large {
+        flex-direction: column;
+    }
+
     &__section {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         flex: 1 1 0;
+
+        @include mobile {
+            margin: 10px 0;
+        }
     }
 
     &__link:not(.button) {
-        color: $primary;
+        color: white;
         line-height: 2;
 
         // &.button {

@@ -37,6 +37,10 @@ p {
     color: white;
     background-color: $primary;
 
+    @include mobile {
+        margin: 10px 0;
+    }
+
     &.primary {
         background-color: $primary;
     }
@@ -48,6 +52,15 @@ p {
 
 .photo-divider {
     $height: 400px;
+
+    @include mobile {
+        $height: 150px;
+    }
+
+    @include mobile-large {
+        $height: 300px;
+    }
+
     height: $height;
     overflow: hidden;
     position: relative;

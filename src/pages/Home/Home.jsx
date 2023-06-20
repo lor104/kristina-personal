@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import circle from '../../assets/images/circle.jpg'
-import image1 from '../../assets/images/john-price-SVqeVMCk9PE-unsplash.jpg'
+import image1 from '../../assets/images/gayatri-malhotra-CI9N__WXvrA-unsplash.jpg'
+import image2 from '../../assets/images/luca-bravo-Fsw4uEDuQTY-unsplash.jpg'
 import './Home.scss';
 
 function Home() {
@@ -47,7 +47,7 @@ function Home() {
                 <Link className='button primary' to="/contact">Book an Appointment</Link>
             </div>
             <div className="photo-divider">
-                <img src={circle} alt="forest" />
+                <img src={image2} alt="forest" />
                 <div className='fade'></div>
             </div>
             <div className="home__section">

@@ -6,16 +6,28 @@
 
     &__logo {
         max-width: 400px;
+
+        @include mobile {
+            max-width: 200px;
+        }
     } 
     &__list {
         @include reset-list;
         display: flex;
         justify-content: center;
         background-color: $secondary;
+
+        @include mobile {
+            
+        }
     }
     &__list-item {
         padding: 10px;
         margin: 0 10px;
+
+        @include mobile {
+            margin: 0 5px;
+        }
     }
     &__link {
         @include reset-link;
@@ -26,6 +38,10 @@
         transition: 0.2s;
         border-bottom: 2px solid transparent;
         color: white;
+
+        @include mobile {
+            padding: 5px;
+        }
         
         &--active, &:hover {
             border-bottom: 2px solid white;

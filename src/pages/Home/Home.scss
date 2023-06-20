@@ -8,6 +8,21 @@
     &__section {
         margin: 150px 7%;
         width: auto;
+
+        @include mobile {
+            margin: 100px 10%;
+        }
+        
+    }
+}
+
+.section {
+    &-divider {
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
     }
 }
 
@@ -15,8 +30,16 @@
     text-align: left;
     padding: 0 40px;
 
+    @include mobile {
+        margin: 0;
+    }
+
     &__container {
         display: flex;
         justify-content: center;
+
+        @include mobile {
+            flex-direction: column;
+        }
     }
 }
