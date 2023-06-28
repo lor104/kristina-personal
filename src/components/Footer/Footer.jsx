@@ -19,7 +19,7 @@ function Footer() {
             <Link className='footer__link' to="/contact">Get In Touch</Link>
         </div>
         <div className="footer__section">
-            <Link className='footer__link button'>Book An Appointment</Link>
+            <Link className='footer__link button' to="/contact">Book An Appointment</Link>
         </div>
     </footer>
   )
