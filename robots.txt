@@ -1,8 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
-
-User-agent: Google
-Allow: 
-Sitemap: https://kristinabeaubien.ca/sitemap.xml
+User-agent: *
+Disallow:
 
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://kristinabeaubien.ca/sitemap.xml
