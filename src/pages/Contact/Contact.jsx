@@ -20,7 +20,7 @@ function Contact() {
       </div>
       <div className="contact__section">
         <h2>Clinic Location:</h2>
-        <h3 className='primary'>Belleville Ostepathy</h3>
+        <h3 className='primary'>Belleville Osteopathy</h3>
         <p>
             Harbourview Business Centre <br />
             11 Bay Bridge Road, Unit 220 <br />
